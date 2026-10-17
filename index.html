@@ -54,6 +54,7 @@
       <nav>
         <a href="#overview">Overview</a>
         <a href="#data">Data</a>
+        <a id="adsNav" href="#advertising">Advertising</a>
         <a href="#use">Use</a>
         <a href="#third">Third parties</a>
         <a href="#retention">Retention</a>
@@ -77,7 +78,7 @@
             <li><strong>Local app data:</strong> prayer records, planned times, dhikr counts, tasbih lists, habits and settings are stored in the app's local storage on your device. Local data may be lost if you uninstall the app unless you have signed in and cloud sync completed.</li>
             <li><strong>Optional location:</strong> only if you enable location-based prayer times. The app will send approximate location (city) to a third-party prayer times API (e.g., AlAdhan) after asking for permission.</li>
             <li><strong>Payments:</strong> purchases are processed by Google Play — we do not collect card details. Purchase receipts may be used to unlock Premium features and are processed by Google Play.</li>
-            <li><strong>Advertising data:</strong> the app may request a small banner on non-prayer screens for non-Premium users. When a non-Premium user chooses to add a routine beyond the first five, the app may offer two optional rewarded videos for one additional routine; the routine is added only after Google Mobile Ads confirms both rewards. Ad length and skip controls are set by the ad provider. Google Mobile Ads may process device identifiers, ad interaction, reward/completion and diagnostic data, and may use approximate location or activity to select, measure or limit ads, subject to your consent and Google settings. The Android app is registered with AdMob, but the app currently uses Google's test banner/rewarded ad-unit IDs until production units are created and app verification is complete.</li>
+            <li><strong>Advertising data:</strong> the app uses Google AdMob production ad units to request a small banner on non-prayer screens for non-Premium users and, when a user chooses to add a routine beyond the first five, an optional rewarded video. One additional routine is added only after Google Mobile Ads confirms both required rewarded views. Ad length and skip controls are set by the ad provider. Google Mobile Ads may process device identifiers, IP address, approximate location, consent choices, ad interactions, reward/completion and diagnostics to serve, personalize, measure and limit ads, subject to your consent and Google settings. Ads may not be served until AdMob completes app verification and enables ad serving.</li>
             <li><strong>Diagnostics / crash reports:</strong> the app does not intentionally send app analytics or crash reports unless a separately disclosed service is enabled.</li>
           </ul>
         </section>
@@ -85,6 +86,12 @@
         <section id="use">
           <h2>How we use data</h2>
           <p>Data is used to provide app features, synchronize your backup when you sign in, and show banner or optional rewarded ads to non-Premium users where permitted. Watching ads is optional; declining does not create a routine. We do not sell personal data. Google may still process data as described in its own policies.</p>
+        </section>
+
+        <section id="advertising">
+          <h2>Advertising and Google AdMob</h2>
+          <p>Zikr uses Google AdMob to show small banner ads to non-Premium users outside prayer screens. If a user chooses to add a habit beyond the five free habits, the app may offer two optional rewarded videos for one additional habit. Watching is voluntary, and the habit is granted only after both rewards are confirmed by Google Mobile Ads. Ads do not unlock tasbih features. Ad length, skip availability and ad content are controlled by Google and the advertiser; the app cannot guarantee that every ad can be skipped or block every unsuitable ad.</p>
+          <p>Before requesting ads, the app uses Google's consent messaging where required. Depending on the user's choices, region and device settings, Google Mobile Ads may process advertising/device identifiers, IP address, approximate location, consent choices, ad interactions, reward status and diagnostics to deliver, personalize, measure and limit ads. Users can review Google's privacy information at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and manage ad personalization through <a href="https://myadcenter.google.com/" target="_blank" rel="noopener">My Ad Center</a>. Ad availability is subject to AdMob review and serving limits.</p>
         </section>
 
         <section id="third">
@@ -195,7 +202,7 @@ Thank you.</pre>
             <li><strong>Локальные данные:</strong> записи намаза, планы, счётчики зикра, списки тасбихов, привычки и настройки хранятся локально на устройстве. При удалении приложения локальные данные могут быть потеряны, если облачная синхронизация не завершилась.</li>
             <li><strong>Опционально — местоположение:</strong> если вы включите расчёт времени по местоположению, приложение пошлёт приблизительные данные (город) на API расчёта времён, например AlAdhan.</li>
             <li><strong>Платежи:</strong> покупки обрабатываются Google Play — данные карт не поступают в приложение.</li>
-            <li><strong>Реклама:</strong> для пользователей без Premium приложение может показывать небольшой баннер вне экранов намаза. При добавлении рутины сверх первых пяти пользователь может добровольно посмотреть два видео с наградой и получить одну рутину только после подтверждения обеих наград Google Mobile Ads. Длительность видео и кнопки пропуска определяет рекламная сеть. Google Mobile Ads может обрабатывать идентификаторы устройства, взаимодействия с рекламой, просмотр/получение наград и диагностические данные, а также использовать приблизительное местоположение или активность для подбора, измерения и ограничения рекламы согласно вашему согласию и настройкам Google. Приложение зарегистрировано в AdMob, но пока использует тестовые блоки баннерной рекламы и rewarded video; рабочие блоки и проверка приложения ещё не завершены.</li>
+            <li><strong>Реклама:</strong> приложение использует рабочие рекламные блоки Google AdMob: небольшой баннер для пользователей без Premium вне экранов намаза и добровольное видео с наградой при добавлении привычки сверх первых пяти. Дополнительная привычка предоставляется только после подтверждения обеих наград Google Mobile Ads. Просмотр добровольный; реклама не открывает функции тасбиха. Длительность видео, возможность пропуска и содержание рекламы контролируют Google и рекламодатель; приложение не может гарантировать пропуск каждого объявления или блокировку всей нежелательной рекламы. До запроса рекламы приложение использует сообщения Google о согласии там, где это требуется. В зависимости от выбора пользователя, региона и настроек устройства Google Mobile Ads может обрабатывать рекламные идентификаторы устройства, IP-адрес, приблизительное местоположение, выбор согласия, взаимодействия с рекламой, получение награды и диагностические данные для показа, персонализации, измерения и ограничения рекламы. Доступность рекламы зависит от проверки приложения и ограничений AdMob.</li>
             <li><strong>Диагностика:</strong> приложение не отправляет аналитику или отчёты об ошибках намеренно, если отдельно не включён и не раскрыт такой сервис.</li>
           </ul>
         </section>
@@ -203,6 +210,12 @@ Thank you.</pre>
         <section>
           <h2>Как используются данные</h2>
           <p>Данные используются для функций приложения, синхронизации резервной копии после входа и показа баннерной или добровольной рекламы с наградой пользователям без Premium там, где это разрешено. Просмотр рекламы добровольный; отказ не добавляет рутину. Мы не продаём личные данные. Google может обрабатывать данные согласно собственным правилам.</p>
+        </section>
+
+        <section id="advertising-ru">
+          <h2>Реклама и Google AdMob</h2>
+          <p>Zikr использует Google AdMob: небольшой баннер для пользователей без Premium вне экранов намаза и добровольное видео с наградой при добавлении привычки сверх первых пяти. Дополнительная привычка предоставляется только после подтверждения обеих наград Google Mobile Ads. Просмотр добровольный; реклама не открывает функции тасбиха. Длительность видео, возможность пропуска и содержание рекламы контролируют Google и рекламодатель; приложение не может гарантировать пропуск каждого объявления или блокировку всей нежелательной рекламы.</p>
+          <p>До запроса рекламы приложение использует сообщения Google о согласии там, где это требуется. В зависимости от выбора пользователя, региона и настроек устройства Google Mobile Ads может обрабатывать рекламные идентификаторы устройства, IP-адрес, приблизительное местоположение, выбор согласия, взаимодействия с рекламой, получение награды и диагностические данные для показа, персонализации, измерения и ограничения рекламы. Подробнее: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Политика конфиденциальности Google</a>; настройки персонализации рекламы доступны в <a href="https://myadcenter.google.com/" target="_blank" rel="noopener">Моём центре рекламы Google</a>. Доступность рекламы зависит от проверки приложения и ограничений AdMob.</p>
         </section>
 
         <section>
@@ -296,8 +309,8 @@ Thank you.</pre>
     const body = document.body;
     const themeBtn = document.getElementById('toggleTheme');
 
-    function showEN(){ en.style.display='block'; ru.style.display='none'; langEn.classList.add('--primary'); langRu.classList.remove('--primary'); }
-    function showRU(){ en.style.display='none'; ru.style.display='block'; langRu.classList.add('--primary'); langEn.classList.remove('--primary'); }
+    function showEN(){ en.style.display='block'; ru.style.display='none'; langEn.classList.add('--primary'); langRu.classList.remove('--primary'); document.getElementById('adsNav').href='#advertising'; }
+    function showRU(){ en.style.display='none'; ru.style.display='block'; langRu.classList.add('--primary'); langEn.classList.remove('--primary'); document.getElementById('adsNav').href='#advertising-ru'; }
 
     langEn.addEventListener('click', ()=>{ showEN(); });
     langRu.addEventListener('click', ()=>{ showRU(); });
